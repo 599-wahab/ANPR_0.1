@@ -4,7 +4,7 @@ import easyocr
 harcascade = "model/haarcascade_russian_plate_number.xml"
 
 # Change 'video_file.mp4' to the path of your video file
-cap = cv2.VideoCapture('test video german.mp4')
+cap = cv2.VideoCapture('demo.mp4')
 
 cap.set(3, 640) # width
 cap.set(4, 480) # height
